@@ -1,0 +1,29 @@
+.courses-section{
+    border-bottom: 1px solid darkgray;
+    padding:20px;
+}
+.img-section img{
+    height:150px;
+}
+.img-section{
+   margin-top:100px;
+}
+.courseName{
+    color:#FFF;
+}
+.introduction{
+    color:width;
+}
+.information-section{
+    background-color:#3c3b37;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:5px 5px 10px darkgray;
+}
+.information-section p{
+    color:#FFF;
+}
+.author{
+    color:#FFF;
+}
+
