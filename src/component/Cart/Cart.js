@@ -21,7 +21,7 @@ const Cart = (props) => {
      }
 
     return (
-        <div className='section'>
+        <div className='full-section'>
             <div className='cart-section'>
               <h6>Enroll Summery</h6> 
               <p>Enrolled Courses: {cart.length} </p>

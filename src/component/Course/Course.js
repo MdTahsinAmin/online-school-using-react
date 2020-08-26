@@ -14,9 +14,7 @@ const Course = () => {
            let newCourse=[...cart,course];
            setCart(newCourse);
     }
-
-   
-
+    
     return (
         <div className='course-container'>
            <div className='course-information'>
