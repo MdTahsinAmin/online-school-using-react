@@ -5,7 +5,7 @@ import './Cart.css'
 import {Dropdown} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faUsers} from '@fortawesome/free-solid-svg-icons';
+import { faUsers,faCartPlus} from '@fortawesome/free-solid-svg-icons';
 
 
 const Cart = (props) => {
@@ -29,8 +29,8 @@ const Cart = (props) => {
             </div>
             <div className='list-section'>
             <Dropdown>
-                    <Dropdown.Toggle variant="warning btn-lg" id="dropdown-basic">
-                 <FontAwesomeIcon className='text-light' icon={faUsers} /> <span className="badge badge-light">{cart.length}</span>
+                    <Dropdown.Toggle variant="Info btn-lg" id="dropdown-basic">
+                 <FontAwesomeIcon className='text-light' icon={faCartPlus} /> <span className="badge badge-light">{cart.length}</span>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
