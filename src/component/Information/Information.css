@@ -14,6 +14,9 @@
 .introduction{
     color:width;
 }
+.course-rating{
+    color:rgb(238, 184, 6)
+}
 .information-section{
     background-color:#3c3b37;
     padding:20px;
@@ -26,4 +29,5 @@
 .author{
     color:#FFF;
 }
+
 

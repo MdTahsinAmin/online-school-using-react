@@ -12,7 +12,8 @@ const courses = [
        courseUrl:'https://www.udemy.com/course/the-bible-of-algorithms-and-interview-questions/',
        student:1485,
        studentRating:2316,
-       feedback:'Bestseller'
+       feedback:'Bestseller',
+       programmingLanguage: 'C/C++/Java/Python'
    },
    {
     id :2,
@@ -26,7 +27,9 @@ const courses = [
     courseUrl:'https://www.udemy.com/course/data-structures-and-algorithms-the-complete-guide/#instructor-1',
     student:1485,
     studentRating:2316,
-    feedback:'Highest Rated'
+    feedback:'Highest Rated',
+    programmingLanguage: 'C/C++/Java/Python',
+    level:'Beginner'
    }
    ,
    {
@@ -41,7 +44,9 @@ const courses = [
     courseUrl:'https://www.udemy.com/course/complete-android-n-developer-course/#instructor-3',
     student:1485,
     studentRating:2316,
-    feedback:'Bestseller'
+    feedback:'Bestseller',
+    programmingLanguage: 'Java/Kotlin',
+    level:'Beginner'
    },
 
    {
@@ -56,7 +61,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/the-complete-android-oreo-developer-course/#instructor-1',
         student:1485,
        studentRating:2316,
-       feedback:'Highest Rated'
+       feedback:'Highest Rated',
+       programmingLanguage: 'Java/Kotlin',
+       level:'Beginner'
    }
    ,
      {
@@ -71,7 +78,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/kotlin-course/#instructor-1',
         student:1485,
         studentRating:2316,
-       feedback:'Bestseller'
+        feedback:'Bestseller',
+        programmingLanguage: 'Java/Kotlin',
+        level:'Beginner'
    }
    ,
      {
@@ -86,7 +95,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/devslopes-android-kotlin/#instructor-1',
         student:1485,
         studentRating:2316,
-      feedback:'Highest Rated'
+      feedback:'Highest Rated',
+      programmingLanguage: 'Java/Kotlin',
+       level:'Beginner'
    }
   ,
      {
@@ -101,7 +112,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/the-complete-web-development-bootcamp/#instructor-1',
         student:252619,
         studentRating:81223,
-        feedback:'Bestseller'
+        feedback:'Bestseller',
+        programmingLanguage: 'HTML,CSS,JAVASCRIPT,NODE,REACT',
+        level:'Beginner'
    }
    ,
      {
@@ -116,7 +129,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/react-the-complete-guide-incl-redux/#instructor-1',
         student:293611,
         studentRating:87575,
-        feedback:'Highest Rated'
+        feedback:'Highest Rated',
+        programmingLanguage: 'REACT',
+        level:'Intermediate'
    }
    ,
      {
@@ -131,7 +146,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/node-with-react-fullstack-web-development/#instructor-1',
         student:64546 ,
        studentRating:11857 ,
-       feedback:'Bestseller'
+       feedback:'Bestseller',
+       programmingLanguage: 'NODE,REACT',
+        level:'Intermediate'
    }
    ,
      {
@@ -146,7 +163,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/java-programming-tutorial-for-beginners/#instructor-1',
         student:79362,
        studentRating:10432,
-       feedback:'Highest Rated'
+       feedback:'Highest Rated',
+       programmingLanguage: 'Java,JavaFx',
+        level:'Beginner,Intermediate'
    }
    ,
      {
@@ -161,7 +180,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/#instructor-1',
         student:48673,
        studentRating:10136,
-       feedback:'Bestseller'
+       feedback:'Bestseller',
+       programmingLanguage: 'JAVA,JAVAFx',
+       level:'Beginner,Intermediate'
    }
    ,
      {
@@ -176,7 +197,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/the-complete-javascript-course/#instructor-1',
         student:339577 ,
         studentRating:81256,
-        feedback:'Highest Rated'
+        feedback:'Highest Rated',
+        programmingLanguage: 'HTML,CSS,JAVASCRIPT,NODE',
+        level:'Beginner'
    }
    ,
      {
@@ -191,7 +214,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/python-the-complete-python-developer-course/#instructor-3',
         student:228581,
        studentRating:55537 ,
-       feedback:'Bestseller'
+       feedback:'Bestseller',
+       programmingLanguage: 'PYTHON',
+       level:'Beginner'
    }
    ,
      {
@@ -206,7 +231,9 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented/#instructor-2',
         student: 85999 ,
         studentRating:17152,
-        feedback:'Highest Rated'
+        feedback:'Highest Rated',
+        programmingLanguage: 'PHP',
+        level:'Beginner'
    }
    ,
      {
@@ -221,8 +248,10 @@ const courses = [
         courseUrl:'https://www.udemy.com/course/python-complete-bootcamp-2019-learn-by-applying-knowledge/#instructor-1',
         student:234799,
         studentRating:6538,
-       feedback:'Bestseller'
+       feedback:'Bestseller',
+       programmingLanguage:'PYTHON,Django',
+       level:'Beginner'
    }
-
+   
 ];
 export default courses;
