@@ -29,7 +29,7 @@ const Cart = (props) => {
             </div>
             <div className='list-section'>
             <Dropdown>
-                    <Dropdown.Toggle variant="Info btn-lg" id="dropdown-basic">
+                    <Dropdown.Toggle variant="info btn-lg" id="dropdown-basic">
                  <FontAwesomeIcon className='text-light' icon={faCartPlus} /> <span className="badge badge-light">{cart.length}</span>
                     </Dropdown.Toggle>
 
